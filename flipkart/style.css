@@ -1,0 +1,366 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+}
+#arrow{
+    position: absolute;
+    left: 29%; 
+    background-color: blue;
+    border-radius: 50%;
+     padding: 0px 3px;
+     color: white;
+}
+.collapse .search{
+    position: absolute;
+    left: 310px;
+    color: grey;
+}
+.search-inp{
+    padding-left: 50px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-list{
+    position: absolute;
+    left: -100px;
+}
+.banner{
+    height: 300px;
+}
+.banner img{
+    height: 300px;
+}
+.electronics_product img{
+    height: 150px;
+    width: 80%;
+}
+.product{
+    height: 250px;
+    width: 200px;
+    border: 1px solid grey;
+    margin-right: 1%;
+}
+.product .pro_img{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    margin: auto;
+
+}
+.product .pro_img img{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    height: 300px;
+    width: 210px;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+}
+.monsoon .essentials{
+    height: 650px;
+}
+.monsoon .poster{
+    height: 650px;
+    background-color: beige;
+}
+.item{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.items{
+    height: 300px;
+    border: 1px solid grey;
+}
+.mitem .pro_img{
+    height: 210px;
+    width: 80%;
+    margin: auto;
+}
+.mitem .pro_img img{
+    height: 100%;
+    width: 100%;
+}
+.poster img{
+    height: 100%;
+    width: 100%;
+}
+.offer_poster{
+    height: 180px;
+    width: 350px;
+}
+.offer_poster img{
+    height: 100%;
+    width: 100%;
+}
+.posters{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+ .furnitures{
+    height: 200px;
+ }
+.top_deals{
+    margin-top: 150px;
+}
+.faq-footer{
+    margin-top: 30px;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(236, 233, 233, 0.862);
+;
+}
+.faq-footer .h1{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.faq-footer .foot_text{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.faq-footer .foot_text2{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.foot_text2 h1{
+    font-size: 20px;
+}
+.recently_viewed span{
+    text-decoration: line-through;
+    color: grey;
+}
+.footer{
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+.footer h6{
+    font-size: 15px;
+    margin-top: 30px;
+    color: #878787;
+}
+ .footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-left: -20%;
+}
+li{
+    list-style: none;
+}
+.para{
+    font-size: 12px;
+}
+.footer .foot-box{
+    height: 400px;
+}
+.media{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -30px;
+}
+.media a{
+    font-size: 20px;
+}
+
+ @media(min-width:576PX) and (max-width:767px){
+    body{
+        width: 100%;
+    }
+    .navbar-brand{
+        margin-left: -180px;
+    }
+    .sub-menu{
+        width: 90%;
+    }
+    .img_d{
+        display: none;
+    }
+    .product{
+        height: 250px;
+        width: 45%;
+        border: 1px solid grey;
+        margin-right: 1%;
+        margin-top: 30px;
+    }
+    .product .pro_img{
+        height: 150px;
+        width: 150px;
+        background-color: aqua;
+        margin: auto;
+    
+    }
+    .product .pro_img img{
+        height: 100%;
+        width: 100%;
+    }
+    .card{
+        height: 300px;
+        width: 210px;
+        margin-top: 30px;
+    }
+    .card img{
+        height: 100%;
+        width: 100%;
+    }
+    .main-item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .essentials{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #arrow{
+        position: absolute;
+        left: 90%;
+    }
+    .poster{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .posters{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .offer_poster{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .furnitures{
+        display: none;
+    }
+    .footer{
+        height: auto;
+    }
+    .foot-box
+    {
+        width: 100%;
+    }
+    .foot-box li a{
+        margin-left: 0px;
+    }
+    .sub-footer{
+        height: 200px;
+    }
+    .sub-footer .sub-box{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .sub-box a{
+        margin-left: 0px;
+    }
+    .sub-box li{
+        padding: 10px 0px;
+    }
+ }
+
+
+ @media(min-width:768PX) and (max-width:992px){
+    body{
+        width: 100%;
+    }
+    .navbar-brand{
+        margin-left: -280px;
+    }
+    .sub-menu{
+        width: 90%;
+    }
+    .img_d{
+        display: none;
+    }
+    .main-item{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product{
+        height: 250px;
+        width: 30%;
+        border: 1px solid grey;
+        margin-right: 1%;
+        margin-top: 30px;
+    }
+    .product .pro_img{
+        height: 150px;
+        width: 150px;
+        margin: auto;
+    
+    }
+    .product .pro_img img{
+        height: 100%;
+        width: 100%;
+    }
+    .card{
+        height: 300px;
+        width: 30%;
+        margin-top: 30px;
+    }
+    .card img{
+        height: 100%;
+        width: 100%;
+    }
+    .essentials{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #arrow{
+        position: absolute;
+        left: 90%;
+    }
+    .poster{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .posters{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .offer_poster{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .furnitures{
+        display: none;
+    }
+    .footer{
+        height: auto;
+    }
+    .foot-box
+    {
+        width: 48%;
+    }
+    .foot-box li a{
+        margin-left: 0px;
+    }
+    .sub-footer{
+        height: 200px;
+    }
+    .sub-footer .sub-box{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .sub-box a{
+        margin-left: 0px;
+    }
+    .sub-box li{
+        padding: 10px 0px;
+    }
+ }
